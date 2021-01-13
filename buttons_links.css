@@ -1,0 +1,140 @@
+html, body{
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    margin:0;
+    line-height: 1.5em;
+    scroll-behavior: smooth;
+}
+
+a{
+    color: rgb(27, 19, 136);
+    font-weight: bold;
+
+    text-underline-offset: 2px;
+    text-decoration-thickness: 3px;
+}
+
+h1{
+    line-height: 120%;
+}
+
+.knapp{
+    background-color:rgba(223, 86, 86, 0.918);
+    padding: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 7px; 
+    /* verdi nr. 1 er frskyvning høyre eller venstre av skyggen 
+       verdi nr. 2 er forskyvning bunn og topp av skyggen
+       verdi nr. 3 er spredningen av skyggen
+       verdi nr. 4 er fargen på skyggen */
+    box-shadow: 0px 10px 20px rgba(80, 21, 21, 0.781);
+
+    font-size: 18px;
+    color: rgb(12, 12, 12);
+}
+.knapp:hover{
+    background-color:rgb(236, 132, 132);
+    transform: scale(1.02);
+}
+
+.blue{
+    background-color: rgb(117, 136, 243);
+}
+.blue:hover{
+    background-color: rgb(104, 125, 243);
+}
+
+.pink{
+    background-color: rgb(253, 162, 177);
+}
+.pink:hover{
+    background-color: rgb(248, 117, 167);
+}
+
+.green{
+    background-color: rgb(75, 196, 125);
+}
+.green:hover{
+    background-color: rgb(61, 173, 108) ;
+}
+
+.CTL{
+    background-color: gray;
+    color: honeydew;
+    box-shadow: none;
+}
+.CTL:hover{
+    background-color: grey;
+}
+
+.ghost_button{
+    background-color: lavender;
+    box-shadow: none;
+    color: #fff
+}
+.ghost_button:hover{
+    background-color: #fff;
+}
+
+.primary_button{
+    background-color: darkblue;
+    color: honeydew;
+    box-shadow: none;
+}
+.primary_button:hover{
+    background-color: rgb(92, 92, 247);
+}
+
+.secondary_button{
+    background-color: rgb(92, 92, 247);
+    color: honeydew;
+    box-shadow: none;
+}
+.secondary_button:hover{
+    background-color: darkblue;
+}
+
+
+a:hover{
+    color: rgb(27, 19, 136);
+    background-color: rgb(142, 205, 230);
+    
+}
+
+.bilde_i_kort{
+
+    /* ved at høyden er lik bredden så blir bildet firkantet */
+    width: 250px;
+    height:250px;
+    
+    /*objekt-fit cover brukes for å ikke strekke bilder */
+    object-fit: cover;
+
+    /*border-radiu avrunder hjørner 50% = maks avrunding */
+    border-radius: 50%;
+
+    display: block;
+    margin: auto;
+    margin-top: -120px;
+
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.bilde_i_kort2{
+
+     /* ved at høyden er lik bredden så blir bildet firkantet */
+    width: 250px;
+    height:250px;
+        
+    /*objekt-fit cover brukes for å ikke strekke bilder */
+    object-fit: cover;
+    
+    /*border-radiu avrunder hjørner 50% = maks avrunding */
+    border-radius: 50%;
+    
+    display: block;
+    margin: auto;
+    margin-top: -120px;
+    
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}

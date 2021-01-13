@@ -1,0 +1,71 @@
+.fullskjerm{
+    min-height: 1000px;
+    background-color: palevioletred;
+    background: url(./emiliano-bar-unsplash.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+
+    /* flex-wrap gjør at kortene stables
+    ved siden av hverandre når det er plass*/
+    flex-wrap: wrap;
+
+    /* align items gjør at høyden til kortet
+    blir like */
+    align-items: center;
+    justify-content: center;
+}
+/* center midtstiller bildet 
+Fixed limer bildet fast
+no-repeat gjør at bildet ikke repeteres */
+
+.kort{
+    background-color: white;
+    padding: 40px;
+    max-width:45ch;
+    margin: 40px;
+
+    border-radius: 10px;
+    box-shadow: 0 10px 20px
+     rgba(0, 0, 0, 0.5);
+}
+
+
+.fullskjerm2{
+    min-height: 1000px;
+    background-color: black;
+    background: url(./ostap-senyuk-runsplash.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+
+    /* flex-wrap gjør at kortene stables
+    ved siden av hverandre når det er plass*/
+    flex-wrap: wrap;
+
+    /* align items gjør at høyden til kortet
+    blir like */
+    align-items: center;
+    justify-content: center;
+}
+
+.fullskjerm3{
+    min-height: 1000px;
+    background-color: black;
+    background: url(./daryan-shamkhali-unsplash.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+
+    /* flex-wrap gjør at kortene stables
+    ved siden av hverandre når det er plass*/
+    flex-wrap: wrap;
+
+    /* align items gjør at høyden til kortet
+    blir like */
+    align-items: center;
+    justify-content: center;
+}
